@@ -19,9 +19,9 @@ Given a and b, determine their respective comparison points.
 
 ## Example
 
-a = [1, 2, 3]
+> a = [1, 2, 3]
 
-b = [3, 2, 1]
+> b = [3, 2, 1]
 
 > 1. For elements *0*, Bob is awarded a point because a[0] .
 > 2. For the equal elements a[1] and b[1], no points are earned.
@@ -44,13 +44,13 @@ The return array is [1, 1] with Alice's score first and Bob's second.
 
 In this example:
 
-1. a = (a[0], a[1], a[2]) = (5, 6, 7)
-2. b = (b[0], b[1], b[2]) = (3, 6, 10)
+> 1. a = (a[0], a[1], a[2]) = (5, 6, 7)
+> 2. b = (b[0], b[1], b[2]) = (3, 6, 10)
 
 Now, let's compare each individual score:
 
-1. a[0] > b[0], so Alice receives 1 point.
-2. a[1] = b[1], so nobody receives a point.
-3. b[2] > a[2] , so Bob receives 1 point.
+> 1. a[0] > b[0], so Alice receives 1 point.
+> 2. a[1] = b[1], so nobody receives a point.
+> 3. b[2] > a[2] , so Bob receives 1 point.
 
 Alice's comparison score is 1, and Bob's comparison score is 1. Thus, we return the array [1, 1].
