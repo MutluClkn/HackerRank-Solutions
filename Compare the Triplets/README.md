@@ -9,9 +9,9 @@ The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the 
 
 The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
 
-1. If a[i] > b[i], then Alice is awarded 1 point.
-2. If a[i] < b[i], then Bob is awarded 1 point.
-3. If a[i] = b[i], then neither person receives a point.
+> 1. If a[i] > b[i], then Alice is awarded 1 point.
+> 2. If a[i] < b[i], then Bob is awarded 1 point.
+> 3. If a[i] = b[i], then neither person receives a point.
 
 Comparison points is the total points a person earned.
 
@@ -23,23 +23,23 @@ a = [1, 2, 3]
 
 b = [3, 2, 1]
 
-1. For elements *0*, Bob is awarded a point because a[0] .
-2. For the equal elements a[1] and b[1], no points are earned.
-3. Finally, for elements 2, a[2] > b[2] so Alice receives a point.
+> 1. For elements *0*, Bob is awarded a point because a[0] .
+> 2. For the equal elements a[1] and b[1], no points are earned.
+> 3. Finally, for elements 2, a[2] > b[2] so Alice receives a point.
 
 The return array is [1, 1] with Alice's score first and Bob's second.
 
 ## Sample Input
-
+```
 5 6 7
 
 3 6 10
-
+```
 
 ## Sample Output
-
+```
 1 1
-
+```
 ## Explanation
 
 In this example:
