@@ -32,12 +32,12 @@ Note: The last line must have 0 spaces in it.
 
 ## Sample Output
 
-     #
-    ##
-   ###
-  ####
- #####
-######
+"     #"
+"    ##"
+"   ###"
+"  ####"
+" #####"
+"######"
 
 ## Explanation
 
