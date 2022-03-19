@@ -1,5 +1,5 @@
-# HackerRank-Mini-Birthday Cake Candles
-Solution of "Birthday Cake Candles algorithm question.
+# HackerRank-Birthday Cake Candles
+Solution of "Birthday Cake Candles" algorithm question.
 
 # Question
 
